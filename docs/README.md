@@ -1,21 +1,23 @@
-# OctoAcme Project Management Docs
+# OctoAcme Project Management Documentation
 
-Central overview of OctoAcme project management processes.
+This README provides a brief summary of the project management processes used by OctoAcme and links to all process docs.
 
-## Summary
+## Project Management Processes Summary
 
-- Initiation
-- Planning
-- Execution and Tracking
-- Risks and Communication
-- Roles and Personas
-- Release and Deploy
-- Retrospective and Closing
+OctoAcme follows structured project management processes including:
+- **Project Initiation:** Defining goals, stakeholders, and initial scope.
+- **Project Planning:** Creating detailed plans for scope, timeline, and resources.
+- **Project Management & Execution:** Managing tasks and tracking progress.
+- **Risks and Communication:** Handling risks and communication plans.
+- **Roles and Personas:** Defining team roles and responsibilities.
+- **Release and Deployment:** Processes for releasing and deploying.
+- **Retrospective and Closing:** Reviewing and closing projects.
 
-## Docs
+## Links to All Process Documents
 
-- [Initiation](octoacme-project-initiation.md)
-- [Planning](octoacme-project-planning.md)
+- [Project Initiation](octoacme-project-initiation.md)
+- [Project Planning](octoacme-project-planning.md)
+- [Project Management](octoacme-project-management.md)
 - [Execution and Tracking](octoacme-execution-and-tracking.md)
 - [Risks and Communication](octoacme-risks-and-communication.md)
 - [Roles and Personas](octoacme-roles-and-personas.md)
