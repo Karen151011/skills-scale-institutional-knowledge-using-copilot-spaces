@@ -51,3 +51,4 @@ This document defines the key personas and roles involved in OctoAcme's project 
 - **Retrospective:** All roles contribute to continuous improvement.
 
 This structure scales institutional knowledge by clarifying who owns what and how information flows across OctoAcme.
+
