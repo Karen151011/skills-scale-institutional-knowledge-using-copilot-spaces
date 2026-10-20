@@ -1,81 +1,53 @@
-# OctoAcme Personas
+# OctoAcme Roles and Personas
 
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+This document defines the key personas and roles involved in OctoAcme's project management processes and how they collaborate.
 
----
+## Existing Roles
 
-## Developers
+### Project Manager (PM)
+- **Responsibilities:** Owns project planning, timeline, scope, and stakeholder communication.
+- **Interacts with:** All roles to coordinate delivery.
 
-### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+### Product Owner
+- **Responsibilities:** Defines requirements, prioritizes backlog, and ensures business value.
+- **Interacts with:** PM, Engineering, QA, Customer Success.
 
-### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+### Developer
+- **Responsibilities:** Implements features, writes tests, and participates in code reviews.
+- **Interacts with:** Engineering Lead, QA Lead, Security Lead.
 
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
+## New Roles and Personas
 
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
+### 1. Líder de Ingeniería / Engineering Lead
+- **Responsibilities:** Technical architecture, engineering standards, mentoring developers, unblocking technical risks.
+- **Objetivos:** Ensure scalable, maintainable delivery.
+- **Interacción:** Works closely with Project Manager on planning, with QA Lead on quality gates, and with Security/Compliance Lead on secure coding.
 
----
+### 2. Líder de Control de Calidad / QA Lead
+- **Responsibilities:** Define test strategy, manage test cases, own bug triage, quality metrics.
+- **Objetivos:** Reduce defects in production, improve release confidence.
+- **Interacción:** Collaborates with Engineering Lead on test automation, with Product Owner on acceptance criteria, and with Operations/Launch on release readiness.
 
-## Product Managers
+### 3. Líder de Seguridad/Cumplimiento / Security/Compliance Lead
+- **Responsibilities:** Security reviews, compliance checks (GDPR, SOC2), threat modeling, dependency scanning.
+- **Objetivos:** Minimize security risk and ensure compliance.
+- **Interacción:** Interacts with Engineering Lead during design reviews, with QA Lead for security testing, and with Project Manager to include security tasks in timeline.
 
-### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
+### 4. Enlace de Éxito/Soporte al Cliente / Customer Success / Support Link
+- **Responsibilities:** Voice of the customer, gather feedback, manage customer issues, document FAQs.
+- **Objetivos:** Improve customer satisfaction and retention.
+- **Interacción:** Works with Product Owner to prioritize customer requests, with QA to reproduce customer issues, and with Operations during launches.
 
-### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
+### 5. Gerente de Operaciones/Lanzamientos / Operations/Launch Manager (Optional)
+- **Responsibilities:** Release planning, deployment runbooks, monitoring, rollback plans, post-launch support.
+- **Objetivos:** Ensure smooth, zero-downtime releases.
+- **Interacción:** Coordinates with Engineering Lead, QA Lead, Security Lead, and Customer Success for go/no-go decisions.
 
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
+## How Roles Collaborate
 
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
+- **Planning:** PM + Product Owner + Engineering Lead + QA Lead + Security Lead define scope and risks.
+- **Execution:** Developers build, QA validates, Security reviews, Customer Success validates customer impact.
+- **Release:** Operations/Launch Manager orchestrates deployment with all leads.
+- **Retrospective:** All roles contribute to continuous improvement.
 
----
-
-## Project Managers
-
-### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
-
-### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
-
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
-
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
-
----
-
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
+This structure scales institutional knowledge by clarifying who owns what and how information flows across OctoAcme.
